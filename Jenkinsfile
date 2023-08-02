@@ -16,7 +16,7 @@ pipeline{
         }
         stage('Test'){
             //If there is a dockerfile within the root of the repo the build would run in the resulting container of the dockerfile
-            agent { dockerfile true}
+            agent { dockerfile true }
             steps{
                 sh "echo run using the dockerfile"
             }
