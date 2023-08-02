@@ -32,7 +32,7 @@ pipeline{
     }
     post{
         always{
-            echo "Pipeline Finished Running"
+            echo "Completed"
         }
         failure{
             echo "Failed"
